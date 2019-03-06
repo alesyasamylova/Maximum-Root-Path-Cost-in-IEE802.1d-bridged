@@ -1,11 +1,7 @@
 /********************************************************************************************** 
-
 ** Project Name: Task_SPT 
-
 ** Program Name: My_Dijkstry.h 
-
 ** 
-
 ** Purpose:  Dijksra's alhorithm - for search min pathes from the source st_node to each other vertex 
 ** 
 ** Dependencies: STL library 
@@ -15,7 +11,6 @@
 ** Date: 21 JUL 2016 
 ** Update Date: 22 JUL 2016 
 ** 
-
 ***********************************************************************************************/ 
 #include <iostream> 
 
@@ -68,7 +63,6 @@ void Dijkstra (int **WeightMatrix, size_t num_nodes, size_t st_node, int *distan
 			   distances[i] = distances[u] + WeightMatrix[u][i]; 
 
         } 
-
     } 
 } 
 
